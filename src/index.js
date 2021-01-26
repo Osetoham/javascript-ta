@@ -1,7 +1,15 @@
 // complete the function
-function palindrom(str) {
-  // code goes here
+function palindrom(str){
+  let newString = str.slice(-str);
+  let palindromeStr =newString.split('').reverse('').join('');
+  
+  if(str === palindromeStr){
+      console.log(`${str} is a palindrome`);
+  }else{
+      console.log(`${str} is not a palindrome`);
+  }
 }
+palindrom('Madam');
 
 function solution(arg) {
   return palindrom(arg);
