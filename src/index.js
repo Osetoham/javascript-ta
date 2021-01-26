@@ -9,8 +9,6 @@ function palindrom(str){
       console.log(`${str} is not a palindrome`);
   }
 }
-palindrom('Madam');
-
 function solution(arg) {
   return palindrom(arg);
 }
